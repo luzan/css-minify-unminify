@@ -20,7 +20,8 @@
   <textarea id="minified-css-orig" style="height:180px;width:584px;">p{font:normal 14px/20px helvetica,arial,sans-serif;color:#333;}.woot{font-weight:bold}</textarea>
   <div class="clear">
     <div class="left">
-      <button id="minified-css-button" style="vertical-align:middle;">Unminify</button>&nbsp;
+      <a class="btn" id="minified-css-button" style="vertical-align:middle;">Unminify</a>&nbsp;
+      <button onclick="saveTextAsFile()">Save Text to File</button>
     </div>
     <div class="right small" style="color:#999;">
       tab width: &nbsp; <input id="minified-css-tab" class="tab-wdth" type="text" value="4" style="" />
@@ -28,6 +29,7 @@
   </div>
   <textarea id="minified-css-new" style="height:180px;width:584px;display:none;"></textarea><br />
   <script type="text/javascript" src="js/unminify-css.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
   <noscript><p>*The css unminifier requires javascript to work.*</p></noscript>
 </div>
 </body>
