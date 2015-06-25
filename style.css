@@ -1,3 +1,9 @@
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 .clear {
 	width: 600px;
 	padding: 9px 0;
@@ -11,4 +17,13 @@
 }
 .right{
 	float: right;
+}
+.tab-wdth{
+	width: 20px;
+	vertical-align: middle;
+	text-align: center;
+	color: #2c2916;
+}
+.small {
+    font-size: 14px;
 }
