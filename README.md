@@ -1,6 +1,8 @@
 # css-minify-unminify
 JavaScript Project to Minify and Un-minify given CSS Code.
 
+_I am still updating this project, it may not be complete till now.
+
 ##CSS Unminify
 
 ###Usage:
