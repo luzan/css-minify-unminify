@@ -1,0 +1,14 @@
+.clear {
+	width: 600px;
+	padding: 9px 0;
+    overflow: hidden;
+    zoom: 1;
+}
+.left{
+	height: 40px;
+	line-height: 40px;
+	float: left;
+}
+.right{
+	float: right;
+}
